@@ -1,6 +1,8 @@
 :root {
-  --background: #111;
+  --background: #070707;
   --foreground: #eee;
+  --border-radius: 2px;
+  --snappy-curve: cubic-bezier(0.5, 0, 0, 1);
 }
 
 html,
