@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Inter } from 'next/font/google'
 
 import React from 'react'
-import Ticker from 'react-ticker'
+// import Ticker from 'react-ticker'
 
 import styles from '../styles/Home.module.css'
 
@@ -61,7 +61,7 @@ export default function Home() {
           <h3>Audio engineer + consultant</h3>
         </div>
 
-        <div className={styles.tickerWrap}>
+        {/* <div className={styles.tickerWrap}>
           <Ticker speed={10} className={styles.tickerContainer}>
             {() => (
               <h1 className={styles.tickerText}>WE MAKE THINGS SOUND AWESOME&nbsp;•&nbsp;SOUND DESIGN&nbsp;•&nbsp;MIX&nbsp;•&nbsp;MUSIC PRODUCTION&nbsp;•&nbsp;ORIGINAL MUSIC&nbsp;•&nbsp;REMOTE RECORDING&nbsp;•&nbsp;</h1>
@@ -69,7 +69,7 @@ export default function Home() {
           </Ticker>
           <div className={styles.tickerBlurL}></div>
           <div className={styles.tickerBlurR}></div>
-        </div>
+        </div> */}
 
         <div className={styles.grid}>
         {videos.map(video => (
