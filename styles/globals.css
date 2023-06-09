@@ -1,15 +1,18 @@
 :root {
-  --background: #070707;
-  --foreground: #eee;
+  --background: #111214;
+  --foreground: #bbb;
+  --accent: #35eec6;
   --border-radius: 2px;
+  --border-radius-soft: 8px;
   --snappy-curve: cubic-bezier(0.5, 0, 0, 1);
+  --snappy-snap: cubic-bezier(0.1, 0, 1, 0);
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background: var(--background);
     color: var(--foreground);
@@ -45,4 +48,14 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+p {
+  /* letter-spacing: 0.015em; */
+  line-height: 1.75em;
+  text-align: justify;
+}
+
+p:hover {
+  cursor: default;
 }
