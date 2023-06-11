@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Inter } from 'next/font/google'
 
 import { React, useState, useRef, useEffect } from 'react'
-// import Ticker from 'react-ticker'
+// import Slider from 'infinite-react-carousel';
 
 import styles from '../styles/Home.module.css'
 
@@ -65,14 +65,14 @@ export default function Home() {
 
         </div>
 
-        <div className={styles.grid}>
+        <div className={styles.carousel}>
         {videos.map(video => (
-          <Link href={`/${video.slug}`} className={styles.gridLink} key={video.slug}>
-          <Image
-            src={`/covers/${video.cover}`}
-            alt={video.name}
-            fill
-          />
+          <Link href={`/${video.slug}`} className={styles.carouselLink} key={video.slug}>
+            <Image
+              src={`/covers/${video.cover}`}
+              alt={video.name}
+              fill
+            />
           </Link>
         ))}
         </div>
@@ -99,6 +99,27 @@ export default function Home() {
   )
 }
 
+
+
+export function VideoCarousel() {
+  <Slider dots>
+    <div>
+      <h3>1</h3>
+    </div>
+    <div>
+      <h3>2</h3>
+    </div>
+    <div>
+      <h3>3</h3>
+    </div>
+    <div>
+      <h3>4</h3>
+    </div>
+    <div>
+      <h3>5</h3>
+    </div>
+  </Slider>
+}
 
 
 export function Abouts({targetTab}) {
