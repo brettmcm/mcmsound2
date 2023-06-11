@@ -1,6 +1,7 @@
 :root {
   --background: #111214;
-  --foreground: #bbb;
+  --background-deep: #0b0c0d;
+  --foreground: #eee;
   --accent: #35eec6;
   --border-radius: 2px;
   --border-radius-soft: 8px;

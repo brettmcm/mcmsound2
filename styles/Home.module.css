@@ -9,6 +9,8 @@
   width: 100vw;
   z-index: 1000;
   mix-blend-mode: difference;
+  filter: blur(0.25px);
+  pointer-events: none;
 }
 
 .nav .menu a {
@@ -19,6 +21,7 @@
   border-radius: var(--border-radius-soft);
   opacity: 0.8;
   transition: all 0.2s var(--snappy-curve);
+  pointer-events: all;
 }
 
 .nav .menu a:hover {
@@ -30,30 +33,39 @@
 }
 
 .main {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-filter: blur(0.25px);
+  filter: blur(0.25px);
+  background-color: var(--background);
 }
 
 .hero {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  padding-left: calc(1em + 20vw);
   width: 100%;
   height: 80vh;
+  background-color: var(--background);
+  mix-blend-mode: lighten;
 }
 
 .hero h1 {
   font-size: calc(2em + 5vw);
   font-weight: 700;
+  line-height: 0.8em;
 }
 
-.hero img {
+.portrait {
   position: absolute;
   display: block;
-  right: 0;
+  right: -1em;
   top: 0;
   z-index: 0;
   mix-blend-mode: lighten;
@@ -62,6 +74,8 @@
   height: 80vh;
   object-fit: cover;
   object-position: center center;
+  opacity: 0.5;
+  filter: saturate(0) blur(5px);
 }
 
 .hero h1, .hero h2, .hero h3, .hero p {
@@ -93,10 +107,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-filter: blur(0.25px);
-  filter: blur(0.25px);
   pointer-events: none;
   user-select: none;
+  width: 90%;
+  max-width: 1000px;
   mix-blend-mode: difference;
 }
 
@@ -178,13 +192,12 @@
 
 .about {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
   width: 100%;
   max-width: 700px;
-  min-height: 100vh;
-  padding: 20vw 0;
+  padding-top: 25vh;
 }
 
 .about h2 {
@@ -195,44 +208,46 @@
   /* text-align: center; */
 }
 
-.about h2 a {
+.about h2 div {
   position: relative;
+  display: inline-block;
   opacity: 0.6;
   transition: opactiy 0.2s;
 }
 
-.about h2 a:hover {
+.about h2 div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.about h2 div.active {
   opacity: 1;
 }
 
-.about h2 a.active {
-  opacity: 1;
-}
-
-.about h2 a.active:hover {
+.about h2 div.active:hover {
   cursor: default;
 }
 
-.about h2 a:after {
+.about h2 div:after {
   position: absolute;
   content: '';
   bottom: -0.15em;
   left:0;
   width: 0;
   height: 1px;
-  background: var(--foreground);
+  background: var(--accent);
   transition: width 0.3s var(--snappy-curve);
 }
 
-.about h2 a:hover:after {
+.about h2 div:hover:after {
   width: 100%;
 }
 
-.about h2 a.active:after {
+.about h2 div.active:after {
   width: 100%;
 }
 
-.about h2 a:not(:last-child) {
+.about h2 div:not(:last-child) {
   margin-right: 1.75em;
 }
 
@@ -253,7 +268,7 @@
 }
 
 .gearListColumn {
-  width: 100%;
+  width: 80vw;
   max-width: 600px;
 }
 
