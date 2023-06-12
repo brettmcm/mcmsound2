@@ -148,13 +148,13 @@
 
 .carousel {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;overflow-x: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   gap: 2em;
-  width: 100%;
-  padding: 0 10%;
+  width: 95%;
   margin-top: -2.5vw;
 }
 
@@ -165,7 +165,7 @@
 .carouselLink {
   position: relative;
   box-sizing: border-box;
-  width: 95%;
+  width: 100%;
   /* max-width: 900px; */
   aspect-ratio: 16/9;
   flex: 0 0 auto; 
@@ -186,6 +186,22 @@
   opacity: 1;
   cursor: default;
   mix-blend-mode: normal;
+}
+
+@media screen and (min-width: 700px) {
+  .carousel {
+    flex-direction: row;
+    padding: 0 10%;
+    width: 100%;
+  }
+
+  .carouselLink {
+    width: 95%;
+  }
+
+  .carouselLink img {
+    border-radius: var(--border-radius);
+  }
 }
 
 .about {
