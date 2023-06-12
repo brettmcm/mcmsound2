@@ -43,7 +43,8 @@
   width: 100vw;
   z-index: 1000;
   mix-blend-mode: difference;
-  filter: blur(0.25px);
+  margin-top:calc(1em + 2vw);
+  border-top: 1px solid var(--sublte);
 }
 
 .footer .social, .footer .contact {
