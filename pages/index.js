@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <div className={styles.contact}>
             <a href="mailto:info@themcmsound.com">Email</a>
-            201-891-1460
+            <a href="tel:201-891-1460">201-891-1460</a>
           </div>
         </footer>
 
