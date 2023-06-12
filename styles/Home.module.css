@@ -36,7 +36,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   top: 0;
   left: 0;
   padding: calc(1em + 2vw);
@@ -48,7 +48,18 @@
 
 .footer .social, .footer .contact {
   display: flex;
+  flex-direction: column;
   gap: 2em;
+}
+
+.footer .contact {
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 700px) {
+  .footer .social, .footer .contact {
+    flex-direction: row;
+  }
 }
 
 .main {
