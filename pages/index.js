@@ -4,13 +4,13 @@ import Link from 'next/link'
 import { Inter } from 'next/font/google'
 
 import { React, useState, useRef, useEffect } from 'react'
-// import Slider from 'infinite-react-carousel';
 
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 import videos from '../data/videos.json'
+import bio from '../data/bio.json'
 
 
 
@@ -19,12 +19,6 @@ export default function Home() {
   const [ activeTab, changeTab ] = useState("aboutBio")
 
   const bioRef = useRef();
-  const [bioHeight, setBioHeight] = useState(10);
-
-  // useLayoutEffect(() => {
-  //   setWidth(bioRef.current.offsetWidth);
-  //   setHeight(ref.current.offsetHeight);
-  // }, []);
 
   return (
     <>
@@ -81,6 +75,7 @@ export default function Home() {
         <div className={styles.about}>
           <h2>
             <div onClick={() => {changeTab('aboutBio')}} className={activeTab == 'aboutBio' ? styles.active : styles.none}>About</div>
+            <div onClick={() => {changeTab('aboutClients')}} className={activeTab == 'aboutClients' ? styles.active : styles.none}>Clients</div>
             <div onClick={() => {changeTab('aboutHardware')}} className={activeTab == 'aboutHardware' ? styles.active : styles.none}>Hardware</div>
             <div onClick={() => {changeTab('aboutSoftware')}} className={activeTab == 'aboutSoftware' ? styles.active : styles.none}>Software</div>
           </h2>
@@ -88,37 +83,32 @@ export default function Home() {
 
         </div>
 
+        <footer className={styles.footer}>
+          <div className={styles.social}>
+            <a href="https://open.spotify.com/user/jdmcm">Spotify</a>
+            <a href="http://soundcloud.com/themcmsound">SoundCloud</a>
+            <a href="http://mixcloud.com/themcmsound">MixCloud</a>
+          </div>
+          <div className={styles.contact}>
+            <a href="mailto:info@themcmsound.com">Email</a>
+            201-891-1460
+          </div>
+        </footer>
+
       </main>
       <nav className={styles.nav}>
-        McM Sound
+        <Image
+          src="mcm-icon.svg"
+          alt="McM Sound Logo"
+          width={50}
+          height={50}
+          />
         <div className={styles.menu}>
           <a href="mailto:info@themcmsound.com">Contact</a>
         </div>
       </nav>
     </>
   )
-}
-
-
-
-export function VideoCarousel() {
-  <Slider dots>
-    <div>
-      <h3>1</h3>
-    </div>
-    <div>
-      <h3>2</h3>
-    </div>
-    <div>
-      <h3>3</h3>
-    </div>
-    <div>
-      <h3>4</h3>
-    </div>
-    <div>
-      <h3>5</h3>
-    </div>
-  </Slider>
 }
 
 
@@ -131,6 +121,9 @@ export function Abouts({targetTab}) {
         case 'aboutSoftware':
             return <AboutSoftware />
 
+        case 'aboutClients':
+            return <Clients />
+
         default:
             return <AboutBio />
     }
@@ -141,10 +134,9 @@ export function Abouts({targetTab}) {
 export function AboutBio() {
   return (
     <div className={styles.bio}>
-      <p>JD is a renowned Sound Designer/Mixer for television and film, and a proverbial swiss army knife in the music world. After apprenticing at a number of sound studios under world class engineers in New York City, he worked for many years as a Sound Designer/Mixer at boutique television post production facility, Bionic. He then spent the bulk of his career thus far as a Senior Recording Engineer for Nutmeg Creative. There he become an accomplished ADR, animation and voice over recordist, while furthering his work as a Sound Designer/Mixer.</p>
-      <p>In 2018 he founded McM Sound with the intention of making his skills available, at an industry competitive price, without all the red tape of a larger post production facility. You'll be in trusted hands from your first phone call, to delivery of your product…every time.</p>
-      <p>His work blends the boundaries of music creation, sound design/editing and mixing, providing you with a wide variety of problem solving techniques. Whatever your audio needs are, he can deliver.</p>
-      <p>When he's not in his studio, he enjoys spending time gardening, and being Daddy.</p>
+      {bio.map(p => (
+        <p>{p.p}</p>
+      ))}
     </div>
   )
 }
@@ -178,6 +170,23 @@ export function AboutSoftware() {
       <li>Adobe Creative Suite</li>
       <li>Native Instruments Komplete Ultimate</li>
       <li>World Class Plug-in Collection</li>
+    </ul>
+  )
+}
+
+
+
+export function Clients() {
+  return (
+    <ul className={styles.gearListColumn}>
+      <li>HBO</li>
+      <li>Epix</li>
+      <li>Nickelodeon</li>
+      <li>VH1</li>
+      <li>AMC</li>
+      <li>ESPN</li>
+      <li>SYFY</li>
+      <li>BBC America</li>
     </ul>
   )
 }

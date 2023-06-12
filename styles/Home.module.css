@@ -2,7 +2,7 @@
   position: fixed;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   top: 0;
   left: 0;
   padding: calc(1em + 2vw);
@@ -30,6 +30,25 @@
   border-radius: var(--border-radius);
 
   /* cursor: default; */
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  padding: calc(1em + 2vw);
+  width: 100vw;
+  z-index: 1000;
+  mix-blend-mode: difference;
+  filter: blur(0.25px);
+}
+
+.footer .social, .footer .contact {
+  display: flex;
+  gap: 2em;
 }
 
 .main {
@@ -123,7 +142,8 @@
   -ms-overflow-style: -ms-autohiding-scrollbar;
   gap: 2em;
   width: 100%;
-  padding: 0 10vw;
+  padding: 0 10%;
+  margin-top: -2.5vw;
 }
 
 .carousel::-webkit-scrollbar {
@@ -132,8 +152,9 @@
 
 .carouselLink {
   position: relative;
-  width: 90%;
-  max-width: 800px;
+  box-sizing: border-box;
+  width: 95%;
+  /* max-width: 900px; */
   aspect-ratio: 16/9;
   flex: 0 0 auto; 
 }
@@ -145,13 +166,11 @@
   opacity: 0.7;
   mix-blend-mode: lighten;
   cursor: default;
-  transform: scale(0.9);
 }
 
 .carouselLink img:hover {
   border-radius: var(--border-radius);
   filter: saturate(1) blur(0);
-  transform: scale(1.005);
   opacity: 1;
   cursor: default;
   mix-blend-mode: normal;
