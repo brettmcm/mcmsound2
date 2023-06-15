@@ -3,22 +3,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from 'next/font/google'
 
-import { React, useState, useRef, useEffect } from 'react'
+import { React } from 'react'
 
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 import videos from '../data/videos.json'
-import bio from '../data/bio.json'
-
+import services from '../data/services.json'
+import clients from '../data/clients.json'
 
 
 export default function Home() {
-
-  const [ activeTab, changeTab ] = useState("aboutBio")
-
-  const bioRef = useRef();
 
   return (
     <>
@@ -34,160 +30,135 @@ export default function Home() {
         <meta name="theme-color" content="#111214" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}
-      onContextMenu={(e) => {
-        e.preventDefault(); // prevent the default behaviour when right clicked
-        console.log("Right Click");
-      }}>
-
-        <div className={styles.hero}>
-
-          <Image
-          src="/portrait.jpg"
-          alt="Portrait of JD"
-          width={225}
-          height={225}
-          className={styles.portrait}
-          />
-
-          <Image
-          src="headline.svg"
-          alt="JD McMillin is McM Sound"
-          width={225}
-          height={225}
-          className={styles.logo}
-          />
-
-        </div>
-
-        <div className={styles.carousel}>
-        {videos.map(video => (
-          <Link href={`/${video.slug}`} className={styles.carouselLink} key={video.slug}>
-            <Image
-              src={`/covers/${video.cover}`}
-              alt={video.name}
-              fill
-            />
-          </Link>
-        ))}
-        </div>
 
 
-        <div className={styles.about}>
-          <h2>
-            <div onClick={() => {changeTab('aboutBio')}} className={activeTab == 'aboutBio' ? styles.active : styles.none}>About</div>
-            <div onClick={() => {changeTab('aboutClients')}} className={activeTab == 'aboutClients' ? styles.active : styles.none}>Clients</div>
-            <div onClick={() => {changeTab('aboutHardware')}} className={activeTab == 'aboutHardware' ? styles.active : styles.none}>Hardware</div>
-            <div onClick={() => {changeTab('aboutSoftware')}} className={activeTab == 'aboutSoftware' ? styles.active : styles.none}>Software</div>
-          </h2>
-          <Abouts targetTab={activeTab} ref={bioRef} />
-
-        </div>
-
-        <footer className={styles.footer}>
-          <div className={styles.social}>
-            <a href="https://open.spotify.com/user/jdmcm">Spotify</a>
-            <a href="http://soundcloud.com/themcmsound">SoundCloud</a>
-            <a href="http://mixcloud.com/themcmsound">MixCloud</a>
-          </div>
-          <div className={styles.contact}>
-            <a href="mailto:info@themcmsound.com">Email</a>
-            <a href="tel:201-891-1460">201-891-1460</a>
-          </div>
-        </footer>
-
+      <MainNav />
+      <main className={styles.main} onContextMenu={(e) => { e.preventDefault(); }}>
+        <HeroBanner />
+        <WorkGrid />
+        <Services />
+        <Clients />
+        <Footer />
       </main>
-      <nav className={styles.nav}>
+    </>
+  )
+}
+
+
+
+export function MainNav() {
+  return (
+    <nav className={styles.nav}>
         <Image
           src="mcm-icon.svg"
           alt="McM Sound Logo"
           width={50}
           height={50}
           />
-        <div className={styles.menu}>
-          <a href="mailto:info@themcmsound.com">Contact</a>
-        </div>
+          <div className={styles.contact}>
+            <a href="https://open.spotify.com/user/jdmcm">
+              <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.87348 15.1266C4.04217 12.2953 4.04217 7.70484 6.87348 4.87354" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M17.1265 4.87354C19.9578 7.70484 19.9578 12.2953 17.1265 15.1266" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M15.0052 6.99475C16.6649 8.65448 16.6649 11.3454 15.0052 13.0052" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.9948 13.0052C7.33507 11.3454 7.33507 8.65448 8.9948 6.99475" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M12.5 10C12.5 10.2761 12.2761 10.5 12 10.5C11.7239 10.5 11.5 10.2761 11.5 10C11.5 9.72386 11.7239 9.5 12 9.5C12.2761 9.5 12.5 9.72386 12.5 10Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                {/* <path d="M12 13.75V19.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> */}
+              </svg>
+              Radio
+            </a>
+            <a href="mailto:info@themcmsound.com">Email</a>
+            <a href="tel:201-891-1460">Call</a>
+          </div>
       </nav>
-    </>
+  )
+}
+
+export function Footer() {
+  return (
+    <footer className={styles.footer}>
+      <div className={styles.utility}>
+        <a href="">Mix Prep</a>
+        <a href="">Remote Recording</a>
+      </div>
+    </footer>
   )
 }
 
 
-export function Abouts({targetTab}) {
+export function HeroBanner() {
+  return (
+    <div className={styles.hero}>
 
-  switch (targetTab) {
-        case 'aboutHardware':
-            return <AboutHardware />
+      <Image
+      src="mcm-icon-outline.svg"
+      alt="McM Sound Logo"
+      width={225}
+      height={225}
+      className={styles.logo}
+      />
 
-        case 'aboutSoftware':
-            return <AboutSoftware />
+      <h1>
+        {/* <span className={styles.eyebrow}>I am an</span> */}
+        Audio <span className={styles.highlight}>consultant</span> and sound <span className={styles.highlight}>engineer</span>
+      </h1>
 
-        case 'aboutClients':
-            return <Clients />
-
-        default:
-            return <AboutBio />
-    }
-
+    </div>
+  )
 }
 
-
-export function AboutBio() {
+export function WorkGrid() {
   return (
-    <div className={styles.bio}>
-      {bio.map(p => (
-        <p>{p.p}</p>
+    <div className={styles.grid}>
+      {videos.map(video => (
+        <Link href={`/${video.slug}`} className={styles.videoLink} key={video.slug}>
+          <Image
+            src={`/covers/${video.cover}`}
+            alt={video.name}
+            fill
+          />
+        </Link>
       ))}
     </div>
   )
 }
 
-export function AboutHardware() {
+
+export function Services() {
   return (
-    <ul className={styles.gearListColumn}>
-      <li>Mac Pro</li>
-      <li className={styles.sub}>3.3 GHz 12-Core Intel Xeon W</li>
-      <li className={styles.sub}>AMD Radeon Pro 580X</li>
-      <li className={styles.sub}>144 GB RAM</li>
-      <li className={styles.sub}>OWC Accelsior 4M2 NVMe SSD RAIDs</li>
-      <li className={styles.sub}>BlackMagic DeckLink</li>
-      <li>Apogee Symphony I/O</li>
-      <li>5.1 Surround Sound Monitoring System</li>
-      <li>TC Electronic Clarity M 5.1 Loudness Metering System</li>
-      <li>AVID S3 Control Surface</li>
-      <li>Phone Patch</li>
-    </ul>
+    <div className={styles.services}>
+      <h2>Services</h2>
+      {services.map(service => (
+        <div className={styles.serviceRow}>
+          {service.category}
+          <hr className={styles.rowHR} />
+          <ul className={styles.servicesList}>
+            {service.elements.map(element => (
+              <p>{element}</p>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
   )
 }
-
-export function AboutSoftware() {
-  return (
-    <ul className={styles.gearListColumn}>
-      <li>Pro Tools Ultimate 2020</li>
-      <li>Soundminer v5</li>
-      <li>iZotope RX v8</li>
-      <li>Melodyne</li>
-      <li>Source-Connect</li>
-      <li>Adobe Creative Suite</li>
-      <li>Native Instruments Komplete Ultimate</li>
-      <li>World Class Plug-in Collection</li>
-    </ul>
-  )
-}
-
 
 
 export function Clients() {
   return (
-    <ul className={styles.gearListColumn}>
-      <li>HBO</li>
-      <li>Epix</li>
-      <li>Nickelodeon</li>
-      <li>VH1</li>
-      <li>AMC</li>
-      <li>ESPN</li>
-      <li>SYFY</li>
-      <li>BBC America</li>
-    </ul>
+    <div className={styles.clients}>
+      <h2>Clients</h2>
+      <div className={styles.logos}>
+        {clients.map(client => (
+          <Image
+            src={`/clients/${client.logo}`}
+            alt={client.name}
+            width={225}
+            height={225}
+            className={styles.clientLoog}
+          />
+        ))}
+      </div>
+    </div>
   )
 }

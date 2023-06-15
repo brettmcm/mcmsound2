@@ -1,0 +1,34 @@
+[
+    {
+        "name": "HBO",
+        "logo": "hbo.png"
+    },
+    {
+        "name": "Epix",
+        "logo": "epix.png"
+    },
+    {
+        "name": "Nick",
+        "logo": "nick.png"
+    },
+    {
+        "name": "VH1",
+        "logo": "vh1.png"
+    },
+    {
+        "name": "AMC",
+        "logo": "amc.png"
+    },
+    {
+        "name": "ESPN",
+        "logo": "espn.png"
+    },
+    {
+        "name": "SYFY",
+        "logo": "syfy.png"
+    },
+    {
+        "name": "BBC America",
+        "logo": "bbca.png"
+    }
+]

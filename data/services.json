@@ -1,0 +1,18 @@
+[
+    {
+        "category": "Service Name",
+        "elements": [
+            "First thing",
+            "Second thing",
+            "The third one"
+        ]
+    },
+    {
+        "category": "Service Name 2",
+        "elements": [
+            "First thing",
+            "Second thing",
+            "The third one"
+        ]
+    }
+]
