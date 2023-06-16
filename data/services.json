@@ -1,18 +1,36 @@
 [
     {
-        "category": "Service Name",
+        "category": "Post Production Sound ",
         "elements": [
-            "First thing",
-            "Second thing",
-            "The third one"
+            "5.1 Surround & Stereo",
+            "Broadcast & Streaming Mixing",
+            "Short Form & Long Form",
+            "Internet & Social Media Mixing",
+            "Radio Spot Editing & Mixing",
+            "Large Venue Mixing",
+            "Feature Films",
+            "Documentaries Trailers",
+            "Live Events",
+            "Sound Design (All Platforms)",
+            "Dialog/Music/SFX Editing"
         ]
     },
     {
-        "category": "Service Name 2",
+        "category": "Sound Consulting",
         "elements": [
-            "First thing",
-            "Second thing",
-            "The third one"
+            "Pre/Post Production Sound Supervision",
+            "Post Production Sound Protocol Design",
+            "Studio Design/Builds"
+        ]
+    },
+    {
+        "category": "Music",
+        "elements": [
+            "Music Supervision",
+            "Music Production/Recording",
+            "Original Music",
+            "Music Augmentation",
+            "Music Searching"
         ]
     }
 ]

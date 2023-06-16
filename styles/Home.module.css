@@ -9,7 +9,9 @@
   width: 100vw;
   z-index: 1000;
   /* mix-blend-mode: difference; */
-  filter: blur(0.25px);
+  /* filter: blur(0.25px); */
+  background: var(--background-screen);
+  backdrop-filter: blur(10px);
   pointer-events: none;
 }
 
@@ -75,8 +77,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-filter: blur(0.25px);
-  filter: blur(0.25px);
+  /* -webkit-filter: blur(0.25px); */
+  /* filter: blur(0.25px); */
   background-color: var(--background);
   overflow-x: hidden;
 }

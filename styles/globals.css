@@ -1,5 +1,6 @@
 :root {
   --background: #111214;
+  --background-screen: rgb(17, 18, 20, 0.8);
   --background-deep: #0b0c0d;
   --foreground: #eee;
   --sublte: #444;
