@@ -108,9 +108,7 @@
   font-size: 0.3em;
   display: block;
   line-height: 1.2em;
-  margin-left: 1em;
-  font-style: italic;
-  opacity: 0.3;
+  color: var(--accent);
 }
 
 .hero h1 .highlight {

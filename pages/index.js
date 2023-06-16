@@ -99,7 +99,7 @@ export function HeroBanner() {
       />
 
       <h1>
-        {/* <span className={styles.eyebrow}>I am an</span> */}
+        <span className={styles.eyebrow}>JD McMillin</span>
         Sound <span className={styles.highlight}>designer mixer</span> & audio <span className={styles.highlight}>consultant</span>
       </h1>
 
