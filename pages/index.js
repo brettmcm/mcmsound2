@@ -100,7 +100,7 @@ export function HeroBanner() {
 
       <h1>
         {/* <span className={styles.eyebrow}>I am an</span> */}
-        Sounds <span className={styles.highlight}>designer</span>, <span className={styles.highlight}>mixer</span> & audio <span className={styles.highlight}>cosultant</span>
+        Sound <span className={styles.highlight}>designer mixer</span> & audio <span className={styles.highlight}>consultant</span>
       </h1>
 
     </div>
