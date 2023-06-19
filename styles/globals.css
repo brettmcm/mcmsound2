@@ -56,7 +56,6 @@ button {
 p {
   /* letter-spacing: 0.015em; */
   line-height: 1.75em;
-  text-align: justify;
 }
 
 p:hover {
