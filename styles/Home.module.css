@@ -246,6 +246,10 @@
   margin-bottom: 0.5em;
 }
 
+.serviceRow .servicesList {
+  text-align: right;
+}
+
 
 .clients {
   position:relative;
