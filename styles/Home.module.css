@@ -246,6 +246,10 @@
   margin-bottom: 0.5em;
 }
 
+.servicesList {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 500px) {
   .serviceRow {
     flex-direction: column;
