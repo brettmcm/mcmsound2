@@ -246,8 +246,10 @@
   margin-bottom: 0.5em;
 }
 
-.serviceRow .servicesList {
-  text-align: right;
+@media screen and (max-width: 700px) {
+  .serviceRow {
+    flex-direction: column;
+  }
 }
 
 
