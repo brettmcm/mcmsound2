@@ -15,7 +15,7 @@ export async function getStaticProps({ params }) {
 
 export default function Video({ video }) {
   return <div>
-    <h1>{video.name}</h1>
+    {/* <h1>{video.name}</h1> */}
     <video controls="controls">
             <source src={video.source} type="video/mp4" />
         </video>
