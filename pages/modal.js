@@ -16,7 +16,7 @@ const Modal = ({ onClose, children, title }) => {
     };
 
     const modalContent = (
-        <div className={styles.modalOverlay}>
+        <div className={styles.modalOverlay} unmount={false}>
             {children}
             {title}
             <a href="#" className={styles.modalClose} onClick={handleCloseClick}>

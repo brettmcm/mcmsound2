@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from 'next/font/google'
 
-import { React, useState } from 'react'
+import { React, useState, useRef } from 'react'
 
 import styles from '../styles/Home.module.css'
 
@@ -150,6 +150,8 @@ export function HeroBanner() {
 
 export function WorkGrid() {
 
+  const videoRef = useRef(null)
+
   const [showModal, setShowModal] = useState(false);
   const [selectedVid, setSelectedVid] = useState(null);
 
@@ -174,7 +176,7 @@ export function WorkGrid() {
       </div>
       {showModal &&
         <Modal onClose={() => setShowModal(false)} title={selectedVid.name}>
-            <video autoplay controls playsinline>
+            <video autoplay controls playsinline ref={videoRef}>
                 <source src={selectedVid.source} type="video/mp4" />
             </video>
         </Modal>
