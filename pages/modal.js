@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import styles from '../styles/Home.module.css'
 
 const Modal = ({ onClose, children, title }) => {
+    
     const handleCloseClick = (e) => {
         e.preventDefault();
         onClose();
@@ -24,10 +25,12 @@ const Modal = ({ onClose, children, title }) => {
         </div>
     );
 
-    return ReactDOM.createPortal(
-        modalContent,
-        document.getElementById("modal-root")
-    );
+    if(typeof document !== 'undefined') {
+        return ReactDOM.createPortal(
+            modalContent,
+            document.getElementById("modal-root")
+        );
+    }
 };
 
 export default Modal
