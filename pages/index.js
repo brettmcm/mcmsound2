@@ -99,6 +99,14 @@ export function Footer() {
               setShowModal(true);
             }}
         >Tech Info</a>
+
+        <Image
+          src="mcm-icon.svg"
+          alt="McM Sound Logo"
+          width={25}
+          height={25}
+          className={styles.footerIcon}
+          />
       </div>
       {showModal &&
         <Modal onClose={() => setShowModal(false)} className={styles.techModal}>

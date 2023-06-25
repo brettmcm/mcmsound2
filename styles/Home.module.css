@@ -49,10 +49,10 @@
   opacity: 1;
 }
 
-.nav .contact a:first-child {
+/* .nav .contact a:first-child {
   padding-left: 1.75em;
   border-left: 1px solid var(--sublte);
-}
+} */
 
 .radioLogo {
   height: 25px;
@@ -76,16 +76,15 @@
 
 .footer .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 2em;
   width: 100%;
   max-width: var(--max-width);
 }
 
-@media screen and (min-width: 700px) {
-  .footer .content {
-    flex-direction: row;
-  }
+.footerIcon {
+  opacity: 0.3;
 }
 
 .main {
