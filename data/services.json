@@ -17,12 +17,13 @@
     {
         "category": "Sound Consulting",
         "elements": [
-            "Pre Production Sound Consulting",
             "Post Production Sound Supervision",
             "Post Production Sound Protocol Design",
+            "Pre Production Sound Consulting",
+            "Studio Computer System Design/Builds",
+            "Sound Design Supervision",
             "Music Supervision",
-            "Music Production",
-            "Studio Computer System Design/Builds"
+            "Music Production"
         ]
     }
 ]
