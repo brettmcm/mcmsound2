@@ -30,27 +30,9 @@
         "source": "https://player.vimeo.com/external/661997534.hd.mp4?s=2a5c9390811b4753e1ab1b678c2c19e5412988dc&profile_id=175"
     },
     {
-        "slug": "pennyworth",
-        "name": "Pennyworth Promo",
-        "cover": "pennyworth.jpg",
-        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
-    },
-    {
         "slug": "epixmovies",
         "name": "Epix Movies Promo",
         "cover": "epix-movies.jpg",
-        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
-    },
-    {
-        "slug": "toyrush",
-        "name": "Toy Rush Trailer",
-        "cover": "toyrush.jpg",
-        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
-    },
-     {
-        "slug": "smurfs",
-        "name": "Smurf It Up Promo",
-        "cover": "smurfs.jpg",
         "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
     },
     {
@@ -69,6 +51,24 @@
         "slug": "bombshell",
         "name": "Bombshell Promo",
         "cover": "bombshell.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+        {
+        "slug": "pennyworth",
+        "name": "Pennyworth Promo",
+        "cover": "pennyworth.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "toyrush",
+        "name": "Toy Rush Trailer",
+        "cover": "toyrush.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "smurfs",
+        "name": "Smurf It Up Promo",
+        "cover": "smurfs.jpg",
         "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
     },
     {
