@@ -53,16 +53,16 @@
         "cover": "bombshell.jpg",
         "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
     },
-        {
-        "slug": "pennyworth",
-        "name": "Pennyworth Promo",
-        "cover": "pennyworth.jpg",
-        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
-    },
     {
         "slug": "toyrush",
         "name": "Toy Rush Trailer",
         "cover": "toyrush.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "pennyworth",
+        "name": "Pennyworth Promo",
+        "cover": "pennyworth.jpg",
         "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
     },
     {
