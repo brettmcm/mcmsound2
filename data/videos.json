@@ -6,51 +6,88 @@
         "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
     },
     {
-        "slug": "kuukuuremix",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "kuukuu.jpg",
+        "slug": "epixanthem",
+        "name": "Epix Anthem",
+        "cover": "epix.jpg",
         "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
     },
     {
-        "slug": "kuukuuremix",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "kuukuu.jpg",
+        "slug": "billythekid",
+        "name": "Billy The Kid Tease",
+        "cover": "billy-the-kid.jpg",
         "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
     },
     {
-        "slug": "epix-fall",
-        "name": "Epix Fall",
-        "cover": "epix-fall-image.jpg",
+        "slug": "12monkeys",
+        "name": "12 Monkeys Trailer",
+        "cover": "12monkeys.jpg",
         "source": "https://player.vimeo.com/external/661997534.hd.mp4?s=2a5c9390811b4753e1ab1b678c2c19e5412988dc&profile_id=175"
     },
     {
-        "slug": "epix-fall",
-        "name": "Epix Fall",
-        "cover": "epix-fall-image.jpg",
+        "slug": "nickimage",
+        "name": "Nick Imaging",
+        "cover": "nsid-20.jpg",
         "source": "https://player.vimeo.com/external/661997534.hd.mp4?s=2a5c9390811b4753e1ab1b678c2c19e5412988dc&profile_id=175"
     },
     {
-        "slug": "epix-fall",
-        "name": "Epix Fall",
-        "cover": "epix-fall-image.jpg",
+        "slug": "pennyworth",
+        "name": "Pennyworth Promo",
+        "cover": "pennyworth.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "epixmovies",
+        "name": "Epix Movies Promo",
+        "cover": "epix-movies.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "toyrush",
+        "name": "Toy Rush Trailer",
+        "cover": "toyrush.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+     {
+        "slug": "smurfs",
+        "name": "Smurf It Up Promo",
+        "cover": "smurfs.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "sonic2",
+        "name": "Sonic 2 Promo",
+        "cover": "sonic2.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+     {
+        "slug": "gnosis",
+        "name": "Gnosis Short",
+        "cover": "gnosis.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "bombshell",
+        "name": "Bombshell Promo",
+        "cover": "bombshell.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "startrek",
+        "name": "Star Trek Prodigy Promo",
+        "cover": "startrek.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "domina",
+        "name": "Domina Promo",
+        "cover": "domina.jpg",
+        "source": "https://player.vimeo.com/external/433824343.hd.mp4?s=ae68cdabf657c64303742f9aa1a14ff11b44c9a3&profile_id=175"
+    },
+    {
+        "slug": "rugrats",
+        "name": "Rugrats Promo",
+        "cover": "rugrats.jpg",
         "source": "https://player.vimeo.com/external/661997534.hd.mp4?s=2a5c9390811b4753e1ab1b678c2c19e5412988dc&profile_id=175"
-    },
-    {
-        "slug": "grind",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "the-grind.jpg",
-        "source": "https://vod-progressive.akamaized.net/exp=1678269934~acl=%2Fvimeo-transcode-storage-prod-us-west1-h264-1080p%2F01%2F1764%2F17%2F433824343%2F1888910785.mp4~hmac=bc451c1c6710286a7622010d24770f963a30ab8dcaa63d044e9b8337cf94825f/vimeo-transcode-storage-prod-us-west1-h264-1080p/01/1764/17/433824343/1888910785.mp4"
-    },
-    {
-        "slug": "grind",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "the-grind.jpg",
-        "source": "https://vod-progressive.akamaized.net/exp=1678269934~acl=%2Fvimeo-transcode-storage-prod-us-west1-h264-1080p%2F01%2F1764%2F17%2F433824343%2F1888910785.mp4~hmac=bc451c1c6710286a7622010d24770f963a30ab8dcaa63d044e9b8337cf94825f/vimeo-transcode-storage-prod-us-west1-h264-1080p/01/1764/17/433824343/1888910785.mp4"
-    },
-    {
-        "slug": "grind",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "the-grind.jpg",
-        "source": "https://vod-progressive.akamaized.net/exp=1678269934~acl=%2Fvimeo-transcode-storage-prod-us-west1-h264-1080p%2F01%2F1764%2F17%2F433824343%2F1888910785.mp4~hmac=bc451c1c6710286a7622010d24770f963a30ab8dcaa63d044e9b8337cf94825f/vimeo-transcode-storage-prod-us-west1-h264-1080p/01/1764/17/433824343/1888910785.mp4"
     }
+
 ]
