@@ -30,6 +30,7 @@ const Modal = ({ onClose, children, title }) => {
             modalContent,
             document.getElementById("modal-root")
         );
+        
     }
 };
 

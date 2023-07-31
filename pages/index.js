@@ -1,22 +1,21 @@
+import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
+
+// import components
+import MainNav from '../components/mainNav'
+import Footer from '../components/footer'
+import HeroBanner from '../components/heroBanner'
+import Services from '../components/services'
+import Clients from '../components/clients'
+import WorkGrid from '../components/workGrid'
+
+// import & setup styles
 import { Inter } from 'next/font/google'
-
-import { React, useState, useRef } from 'react'
-
 import styles from '../styles/Home.module.css'
-
 const inter = Inter({ subsets: ['latin'] })
 
-import videos from '../data/videos.json'
-import services from '../data/services.json'
-import clients from '../data/clients.json'
-import tech from '../data/tech.json'
+
 import Video from './[video]'
-
-import Modal from '../pages/modal'
-
 
 
 export default function Home() {
@@ -45,183 +44,5 @@ export default function Home() {
         <Footer />
       </main>
     </>
-  )
-}
-
-
-
-export function MainNav() {
-  return (
-    <nav className={styles.nav}>
-      <div className={styles.navWrapper}>
-        <Image
-          src="mcm-icon.svg"
-          alt="McM Sound Logo"
-          width={50}
-          height={50}
-          />
-          <div className={styles.contact}>
-            <a href="https://open.spotify.com/user/jdmcm">
-              {/* <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.87348 15.1266C4.04217 12.2953 4.04217 7.70484 6.87348 4.87354" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
-                <path d="M17.1265 4.87354C19.9578 7.70484 19.9578 12.2953 17.1265 15.1266" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
-                <path d="M15.0052 6.99475C16.6649 8.65448 16.6649 11.3454 15.0052 13.0052" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
-                <path d="M8.9948 13.0052C7.33507 11.3454 7.33507 8.65448 8.9948 6.99475" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
-                <path d="M12.5 10C12.5 10.2761 12.2761 10.5 12 10.5C11.7239 10.5 11.5 10.2761 11.5 10C11.5 9.72386 11.7239 9.5 12 9.5C12.2761 9.5 12.5 9.72386 12.5 10Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"></path>
-              </svg>
-              Radio */}
-              <Image
-                src="radio.svg"
-                alt="McM Radio Logo"
-                width={225}
-                height={225}
-                className={styles.radioLogo}
-              />
-            </a>
-            <a href="mailto:info@themcmsound.com">Email</a>
-            <a href="tel:201-891-1460">Call</a>
-          </div>
-        </div>
-      </nav>
-  )
-}
-
-export function Footer() {
-
-  const [showModal, setShowModal] = useState(false);
-
-  return (
-    <footer className={styles.footer}>
-      <div className={styles.content}>
-        <a href="#"
-          onClick={(e) => {
-              e.preventDefault();
-              setShowModal(true);
-            }}
-        >Tech Info</a>
-
-        <Image
-          src="mcm-icon.svg"
-          alt="McM Sound Logo"
-          width={25}
-          height={25}
-          className={styles.footerIcon}
-          />
-      </div>
-      {showModal &&
-        <Modal onClose={() => setShowModal(false)} className={styles.techModal}>
-            {tech.map(techs => (
-              <div>
-              <h2>{techs.category}</h2>
-                <ul className={styles.techList}>
-                  {techs.elements.map(element => (
-                    <p key={element} dangerouslySetInnerHTML={{ __html: element }}></p>
-                  ))}
-                </ul>
-              </div>
-            ))}
-        </Modal>
-      }
-    </footer>
-  )
-}
-
-
-export function HeroBanner() {
-  return (
-    <div className={styles.hero}>
-
-      <Image
-      src="mcm-icon-outline.svg"
-      alt="McM Sound Logo"
-      width={225}
-      height={225}
-      className={styles.logo}
-      />
-
-      <h1>
-        <span className={styles.eyebrow}>JD McMillin</span>
-        Sound <span className={styles.highlight}>designer mixer</span> & audio <span className={styles.highlight}>consultant</span>
-      </h1>
-
-    </div>
-  )
-}
-
-export function WorkGrid() {
-
-  const videoRef = useRef(null)
-
-  const [showModal, setShowModal] = useState(false);
-  const [selectedVid, setSelectedVid] = useState(null);
-
-  return (
-    <div className={styles.gridWrapper}>
-      <div className={styles.grid}>
-        {videos.map(video => (
-          <Link href={`/${video.slug}`} className={styles.videoLink} key={video.slug}
-            onClick={(e) => {
-              e.preventDefault();
-              setSelectedVid(video);
-              setShowModal(true);
-            }}
-            >
-            <Image
-              src={`/covers/${video.cover}`}
-              alt={video.name}
-              fill
-            />
-          </Link>
-        ))}
-      </div>
-      {showModal &&
-        <Modal onClose={() => setShowModal(false)} title={selectedVid.name}>
-            <video autoplay controls playsinline ref={videoRef}>
-                <source src={selectedVid.source} type="video/mp4" />
-            </video>
-        </Modal>
-      }
-    </div>
-  )
-}
-
-
-export function Services() {
-  return (
-    <div className={styles.services}>
-      <h2>Services</h2>
-      {services.map(service => (
-        <div className={styles.serviceRow} key={service.category}>
-          {service.category}
-          <hr className={styles.rowHR} />
-          <ul className={styles.servicesList}>
-            {service.elements.map(element => (
-              <p key={element}>{element}</p>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
-  )
-}
-
-
-export function Clients() {
-  return (
-    <div className={styles.clients}>
-      <h2>Clients</h2>
-      <div className={styles.logos}>
-        {clients.map(client => (
-          <Image
-            src={`/clients/${client.logo}`}
-            alt={client.name}
-            width={225}
-            height={225}
-            className={styles.clientLoog}
-            key={client.name}
-          />
-        ))}
-      </div>
-    </div>
   )
 }
