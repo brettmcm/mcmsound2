@@ -40,12 +40,12 @@
         "logo": "amc.png"
     },
     {
-        "name": "VH1",
-        "logo": "vh1.png"
-    },
-    {
         "name": "SYFY",
         "logo": "syfy.png"
+    },
+    {
+        "name": "VH1",
+        "logo": "vh1.png"
     },
     {
         "name": "AE",
