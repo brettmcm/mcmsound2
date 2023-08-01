@@ -41,11 +41,11 @@
         "cover": "sonic2.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234691/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7833ce83229e3a17985ee2ea471062fb7b5b95a1105cb3d1dcfe8f870cee71"
     },
-     {
-        "slug": "gnosis",
-        "name": "Gnosis Short",
-        "cover": "gnosis.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/433823883/rendition/1080p/file.mp4?loc=external&log_user=0&signature=baf3f21484a0d5e9795d3492e319ee70cfdcc53cd80ade5e5c5ff96bff45dd22"
+    {
+        "slug": "pennyworth",
+        "name": "Pennyworth Promo",
+        "cover": "pennyworth.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/850234392/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d68c4ee6be6eb6b05acefe563fcdcb3f2848d4e4036bb3c05cd53aa3e14652b7"
     },
     {
         "slug": "bombshell",
@@ -58,6 +58,12 @@
         "name": "Toy Rush Trailer",
         "cover": "toyrush.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/433823816/rendition/1080p/file.mp4?loc=external&log_user=0&signature=26fe2045ca33820f422e54a0142778b9d84324a2cc0c0c07aa8110a22dd288b9"
+    },
+    {
+        "slug": "gnosis",
+        "name": "Gnosis Short",
+        "cover": "gnosis.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/433823883/rendition/1080p/file.mp4?loc=external&log_user=0&signature=baf3f21484a0d5e9795d3492e319ee70cfdcc53cd80ade5e5c5ff96bff45dd22"
     },
     {
         "slug": "pennyworth",
