@@ -24,16 +24,16 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/433823987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=11eafc104e4109482fa3df5d06def79408a81cc9eaccb2b3153b2933a1c41d0c"
     },
     {
-        "slug": "epixanthem",
-        "name": "Epix Anthem",
-        "cover": "epix.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661997534/rendition/1080p/file.mp4?loc=external&signature=23e467d5b7b312d605341a2af6acd2d13fbedd00b0fd8676a80e88d1fdf7c6b6"
-    },
-    {
         "slug": "nickimage",
         "name": "Nick Imaging",
         "cover": "nsid-20.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=40856da0b5af446eac0d31fa148114050d005b42aac875a06461f061949ff9a6"
+    },
+    {
+        "slug": "epixanthem",
+        "name": "Epix Anthem",
+        "cover": "epix.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661997534/rendition/1080p/file.mp4?loc=external&signature=23e467d5b7b312d605341a2af6acd2d13fbedd00b0fd8676a80e88d1fdf7c6b6"
     },
     {
         "slug": "sonic2",
