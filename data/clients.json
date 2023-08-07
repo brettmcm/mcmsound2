@@ -12,8 +12,8 @@
         "logo": "appletv.png"
     },
     {
-        "name": "Nick",
-        "logo": "nick.png"
+        "name": "PPlus",
+        "logo": "pplus.png"
     },
     {
         "name": "Amazon",
@@ -24,8 +24,8 @@
         "logo": "hco.png"
     },
     {
-        "name": "PPlus",
-        "logo": "pplus.png"
+        "name": "Nick",
+        "logo": "nick.png"
     },
     {
         "name": "NYT",
@@ -34,6 +34,10 @@
     {
         "name": "ESPN",
         "logo": "espn.png"
+    },
+    {
+        "name": "AMC",
+        "logo": "amc.png"
     },
     {
         "name": "SYFY",
@@ -46,10 +50,6 @@
     {
         "name": "AE",
         "logo": "ae.png"
-    },
-    {
-        "name": "AMC",
-        "logo": "amc.png"
     },
     {
         "name": "History",
