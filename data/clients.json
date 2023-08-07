@@ -36,6 +36,10 @@
         "logo": "vpc.png"
     },
     {
+        "name": "AMC",
+        "logo": "amc.png"
+    },
+    {
         "name": "ESPN",
         "logo": "espn.png"
     },
@@ -46,10 +50,6 @@
     {
         "name": "VH1",
         "logo": "vh1.png"
-    },
-    {
-        "name": "AMC",
-        "logo": "amc.png"
     },
     {
         "name": "History",
