@@ -36,12 +36,12 @@
         "logo": "vpc.png"
     },
     {
-        "name": "AMC",
-        "logo": "amc.png"
-    },
-    {
         "name": "ESPN",
         "logo": "espn.png"
+    },
+    {
+        "name": "AMC",
+        "logo": "amc.png"
     },
     {
         "name": "SYFY",
