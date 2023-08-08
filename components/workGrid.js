@@ -26,10 +26,8 @@ function WorkGrid() {
           <Link href={`/${video.slug}`} className={styles.videoLink} key={video.slug}
             onClick={(e) => {
               e.preventDefault();
-              useEffect(() => {
-                setSelectedVid(video);
-                setShowModal(true);
-              }, [])
+              setSelectedVid(video);
+              setShowModal(true);
             }}
             >
             <Image
