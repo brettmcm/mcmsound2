@@ -72,6 +72,12 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/457034808/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5a56bd325c2b919f8f3103c9cd9298d5d4daf272eaa1511e64c9a6ae56ccde7a"
     },
     {
+        "slug": "gnosis",
+        "name": "Gnosis Short",
+        "cover": "gnosis.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/433823883/rendition/1080p/file.mp4?loc=external&log_user=0&signature=baf3f21484a0d5e9795d3492e319ee70cfdcc53cd80ade5e5c5ff96bff45dd22"
+    },
+    {
         "slug": "fallriver",
         "name": "Fall River Tease",
         "cover": "fall-river.jpg",
@@ -94,12 +100,6 @@
         "name": "Star Trek Prodigy Promo",
         "cover": "startrek.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234526/rendition/1080p/file.mp4?loc=external&log_user=0&signature=83338f452db1738ae6900c47bcd7260c5007af80ff80b00c931c196ee4a80b38"
-    },
-    {
-        "slug": "gnosis",
-        "name": "Gnosis Short",
-        "cover": "gnosis.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/433823883/rendition/1080p/file.mp4?loc=external&log_user=0&signature=baf3f21484a0d5e9795d3492e319ee70cfdcc53cd80ade5e5c5ff96bff45dd22"
     },
     {
         "slug": "rugrats",
