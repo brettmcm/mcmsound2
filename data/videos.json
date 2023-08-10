@@ -18,10 +18,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
     },
     {
-        "slug": "billythekid",
-        "name": "Billy The Kid Tease",
-        "cover": "billy-the-kid.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
+        "slug": "nickimage",
+        "name": "Nick Imaging Mnemonics",
+        "cover": "nsid-20.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/850234432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=40856da0b5af446eac0d31fa148114050d005b42aac875a06461f061949ff9a6"
     },
     {
         "slug": "12monkeys",
@@ -30,10 +30,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/433823987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=11eafc104e4109482fa3df5d06def79408a81cc9eaccb2b3153b2933a1c41d0c"
     },
     {
-        "slug": "nickimage",
-        "name": "Nick Imaging Mnemonics",
-        "cover": "nsid-20.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/850234432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=40856da0b5af446eac0d31fa148114050d005b42aac875a06461f061949ff9a6"
+        "slug": "billythekid",
+        "name": "Billy The Kid Tease",
+        "cover": "billy-the-kid.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
     },
     {
         "slug": "pennyworth",
