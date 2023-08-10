@@ -1,9 +1,9 @@
 [
     {
-        "slug": "kuukuuremix",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "kuukuu.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
+        "slug": "lovedeath",
+        "name": "Love & Death Doc Featurette Ep6",
+        "cover": "love-death.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
     },
     {
         "slug": "epixmovies",
@@ -12,16 +12,16 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
+        "slug": "kuukuuremix",
+        "name": "Kuu Kuu Harajuku Theme Remix",
+        "cover": "kuukuu.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
+    },
+    {
         "slug": "billythekid",
         "name": "Billy The Kid Tease",
         "cover": "billy-the-kid.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
-    },
-    {
-        "slug": "12monkeys",
-        "name": "12 Monkeys Trailer",
-        "cover": "12monkeys.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/433823987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=11eafc104e4109482fa3df5d06def79408a81cc9eaccb2b3153b2933a1c41d0c"
     },
     {
         "slug": "nickimage",
@@ -30,16 +30,34 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=40856da0b5af446eac0d31fa148114050d005b42aac875a06461f061949ff9a6"
     },
     {
-        "slug": "epixanthem",
-        "name": "Epix Anthem",
-        "cover": "epix.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661997534/rendition/1080p/file.mp4?loc=external&signature=23e467d5b7b312d605341a2af6acd2d13fbedd00b0fd8676a80e88d1fdf7c6b6"
+        "slug": "12monkeys",
+        "name": "12 Monkeys Trailer",
+        "cover": "12monkeys.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/433823987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=11eafc104e4109482fa3df5d06def79408a81cc9eaccb2b3153b2933a1c41d0c"
+    },
+    {
+        "slug": "fallriver",
+        "name": "Fall River Tease",
+        "cover": "fall-river.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661737427/rendition/1080p/file.mp4?loc=external&signature=2f6ea764771d5b84786034c52a491cdd2e84c9711bfc6cd0186ee5cd2784f1fa"
     },
     {
         "slug": "sonic2",
         "name": "Sonic 2 Promo",
         "cover": "sonic2.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234691/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7833ce83229e3a17985ee2ea471062fb7b5b95a1105cb3d1dcfe8f870cee71"
+    },
+    {
+        "slug": "epixanthem",
+        "name": "Epix Anthem",
+        "cover": "epix.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661997534/rendition/1080p/file.mp4?loc=external&signature=23e467d5b7b312d605341a2af6acd2d13fbedd00b0fd8676a80e88d1fdf7c6b6"
+    },
+    {
+        "slug": "terminator",
+        "name": "Terminator Dark Fate Promo",
+        "cover": "terminator.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034846/rendition/1080p/file.mp4?loc=external&signature=5e25cad47317628294467b968a4ee7968746a1b2c339c1b8721d5690fbcfd846"
     },
     {
         "slug": "smurfs",
