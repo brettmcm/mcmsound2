@@ -36,10 +36,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=40856da0b5af446eac0d31fa148114050d005b42aac875a06461f061949ff9a6"
     },
     {
-        "slug": "fallriver",
-        "name": "Fall River Tease",
-        "cover": "fall-river.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661737427/rendition/1080p/file.mp4?loc=external&signature=2f6ea764771d5b84786034c52a491cdd2e84c9711bfc6cd0186ee5cd2784f1fa"
+        "slug": "pennyworth",
+        "name": "Pennyworth Promo",
+        "cover": "pennyworth.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/850234392/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d68c4ee6be6eb6b05acefe563fcdcb3f2848d4e4036bb3c05cd53aa3e14652b7"
     },
     {
         "slug": "sonic2",
@@ -72,16 +72,16 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/457034808/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5a56bd325c2b919f8f3103c9cd9298d5d4daf272eaa1511e64c9a6ae56ccde7a"
     },
     {
+        "slug": "fallriver",
+        "name": "Fall River Tease",
+        "cover": "fall-river.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661737427/rendition/1080p/file.mp4?loc=external&signature=2f6ea764771d5b84786034c52a491cdd2e84c9711bfc6cd0186ee5cd2784f1fa"
+    },
+    {
         "slug": "toyrush",
         "name": "Toy Rush Trailer",
         "cover": "toyrush.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/433823816/rendition/1080p/file.mp4?loc=external&log_user=0&signature=26fe2045ca33820f422e54a0142778b9d84324a2cc0c0c07aa8110a22dd288b9"
-    },
-    {
-        "slug": "pennyworth",
-        "name": "Pennyworth Promo",
-        "cover": "pennyworth.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/850234392/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d68c4ee6be6eb6b05acefe563fcdcb3f2848d4e4036bb3c05cd53aa3e14652b7"
     },
     {
         "slug": "domina",
