@@ -1,9 +1,9 @@
 [
     {
-        "slug": "lovedeath",
-        "name": "Love & Death Doc Featurette Ep6",
-        "cover": "love-death.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
+        "slug": "kuukuuremix",
+        "name": "Kuu Kuu Harajuku Theme Remix",
+        "cover": "kuukuu.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
     },
     {
         "slug": "epixmovies",
@@ -12,10 +12,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
-        "slug": "kuukuuremix",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "kuukuu.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
+        "slug": "lovedeath",
+        "name": "Love & Death Doc Featurette Ep6",
+        "cover": "love-death.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
     },
     {
         "slug": "billythekid",
