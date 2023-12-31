@@ -1,15 +1,15 @@
 [
     {
+        "name": "AppleTV",
+        "logo": "appletv.png"
+    },
+    {
         "name": "MAX",
         "logo": "max.png"
     },
     {
         "name": "MGM",
         "logo": "mgm.png"
-    },
-    {
-        "name": "AppleTV",
-        "logo": "appletv.png"
     },
     {
         "name": "Amazon",
