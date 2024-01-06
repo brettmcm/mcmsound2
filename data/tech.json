@@ -2,19 +2,18 @@
     {
         "category": "Mix prep",
         "elements": [
-            "Apple ProRes or H.264 MOV video reference file preferable",
-            "AAF/OMF - 48 kHz, 24 Bit, Mono Tracks, Embedded Media",
+            "Apple ProRes or H.264 MOV video reference file",
+            "AAF/OMF - 48 kHz, 24 Bit, Embedded Media with at least 3 second handles",
             "All available music mix and stem files (WAV or AIFF)",
-            "All Narration/Voice Over record files (when applicable)",
-            "Spec sheets and versioning documents are appreciated"
+            "All Narration/Voice Over record files (WAV or AIFF)",
+            "Scripts, delivery spec sheets and versioning documents are appreciated"
         ]
     },
     {
         "category": "Remote connections",
         "elements": [
             "Source Connect Username - mcmsound",
-            "Zoom Room - <a href=\"https://link.mcms.mx/zoom\">https://link.mcms.mx/zoom</a>",
-            "Phone Patch - 201.891.1460"
+            "Zoom Room - <a href=\"https://link.mcms.mx/zoom\">https://link.mcms.mx/zoom</a>"
         ]
     }
 ]
