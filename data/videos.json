@@ -60,18 +60,18 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
     },
     {
+        "slug": "sonic2",
+        "name": "Sonic 2 Promo",
+        "cover": "sonic2.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/850234691/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7833ce83229e3a17985ee2ea471062fb7b5b95a1105cb3d1dcfe8f870cee71"
+    },
+    {
         "slug": "pennyworth",
         "name": "Pennyworth Promo",
         "cover": "pennyworth.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234392/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d68c4ee6be6eb6b05acefe563fcdcb3f2848d4e4036bb3c05cd53aa3e14652b7"
     },
     {
-        "slug": "sonic2",
-        "name": "Sonic 2 Promo",
-        "cover": "sonic2.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/850234691/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7833ce83229e3a17985ee2ea471062fb7b5b95a1105cb3d1dcfe8f870cee71"
-    },
-     {
         "slug": "terminator",
         "name": "Terminator Dark Fate Promo",
         "cover": "terminator.jpg",
