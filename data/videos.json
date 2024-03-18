@@ -48,15 +48,15 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/661736907/rendition/1080p/file.mp4?loc=external&log_user=0&signature=36512fc6a6be96a3f07f73c711cc42ee40e64b7a99f7804a82a953af6f3517bb"
     },
     {
-        "slug": "mgmplusyearender",
-        "name": "MgM+ Anthem",
-        "cover": "mgmplus.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
-    },
-    {
         "slug": "transformers",
         "name": "Transformers: Rise of the Beasts",
         "cover": "transformers.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
+    },
+    {
+        "slug": "mgmplusyearender",
+        "name": "MgM+ Anthem",
+        "cover": "mgmplus.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
     },
     {
@@ -71,17 +71,17 @@
         "cover": "sonic2.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234691/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7833ce83229e3a17985ee2ea471062fb7b5b95a1105cb3d1dcfe8f870cee71"
     },
+     {
+        "slug": "terminator",
+        "name": "Terminator Dark Fate Promo",
+        "cover": "terminator.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034846/rendition/1080p/file.mp4?loc=external&signature=5e25cad47317628294467b968a4ee7968746a1b2c339c1b8721d5690fbcfd846"
+    },
     {
         "slug": "epixanthem",
         "name": "Epix Anthem",
         "cover": "epix-anthem-22.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/661997534/rendition/1080p/file.mp4?loc=external&signature=23e467d5b7b312d605341a2af6acd2d13fbedd00b0fd8676a80e88d1fdf7c6b6"
-    },
-    {
-        "slug": "terminator",
-        "name": "Terminator Dark Fate Promo",
-        "cover": "terminator.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/457034846/rendition/1080p/file.mp4?loc=external&signature=5e25cad47317628294467b968a4ee7968746a1b2c339c1b8721d5690fbcfd846"
     },
     {
         "slug": "bombshell",
