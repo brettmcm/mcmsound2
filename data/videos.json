@@ -35,10 +35,10 @@
         "cover": "billy-the-kid.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
     },
-    {
-        "slug": "transformers",
-        "name": "Transformers: Rise of the Beasts",
-        "cover": "transformers.jpg",
+     {
+        "slug": "mgmplusyearender",
+        "name": "MgM+ Anthem",
+        "cover": "mgmplus.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
     },
     {
@@ -48,9 +48,15 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=40856da0b5af446eac0d31fa148114050d005b42aac875a06461f061949ff9a6"
     },
     {
-        "slug": "mgmplusyearender",
-        "name": "MgM+ Anthem",
-        "cover": "mgmplus.jpg",
+        "slug": "smurfs",
+        "name": "Smurf It Up Promo",
+        "cover": "smurfs.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661736907/rendition/1080p/file.mp4?loc=external&log_user=0&signature=36512fc6a6be96a3f07f73c711cc42ee40e64b7a99f7804a82a953af6f3517bb"
+    },
+    {
+        "slug": "transformers",
+        "name": "Transformers: Rise of the Beasts",
+        "cover": "transformers.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
     },
     {
@@ -76,12 +82,6 @@
         "name": "Terminator Dark Fate Promo",
         "cover": "terminator.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/457034846/rendition/1080p/file.mp4?loc=external&signature=5e25cad47317628294467b968a4ee7968746a1b2c339c1b8721d5690fbcfd846"
-    },
-    {
-        "slug": "smurfs",
-        "name": "Smurf It Up Promo",
-        "cover": "smurfs.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661736907/rendition/1080p/file.mp4?loc=external&log_user=0&signature=36512fc6a6be96a3f07f73c711cc42ee40e64b7a99f7804a82a953af6f3517bb"
     },
     {
         "slug": "bombshell",
