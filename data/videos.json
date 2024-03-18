@@ -6,10 +6,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
     },
     {
-        "slug": "epixmovies",
-        "name": "Epix Movies Promo",
-        "cover": "epix-movies.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
+        "slug": "babyshark",
+        "name": "Baby Shark's Big Movie",
+        "cover": "babyshark.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
     },
     {
         "slug": "lovedeath",
@@ -18,22 +18,40 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
     },
     {
-        "slug": "billythekid",
-        "name": "Billy The Kid Tease",
-        "cover": "billy-the-kid.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
-    },
-    {
         "slug": "12monkeys",
         "name": "12 Monkeys Trailer",
         "cover": "12monkeys.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/433823987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=11eafc104e4109482fa3df5d06def79408a81cc9eaccb2b3153b2933a1c41d0c"
     },
     {
+        "slug": "epixmovies",
+        "name": "Epix Movies Promo",
+        "cover": "epix-movies.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
+    },
+    {
+        "slug": "billythekid",
+        "name": "Billy The Kid Tease",
+        "cover": "billy-the-kid.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
+    },
+     {
         "slug": "nickimage",
         "name": "Nick Imaging Mnemonics",
         "cover": "nsid-20.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/850234432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=40856da0b5af446eac0d31fa148114050d005b42aac875a06461f061949ff9a6"
+    },
+    {
+        "slug": "transformers",
+        "name": "Transformers: Rise of the Beasts",
+        "cover": "transformers.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
+    },
+    {
+        "slug": "mgmplusyearender",
+        "name": "MgM+ Anthem",
+        "cover": "mgmplus.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
     },
     {
         "slug": "pennyworth",
