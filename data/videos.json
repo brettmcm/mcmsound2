@@ -6,10 +6,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
     },
     {
-        "slug": "babyshark",
-        "name": "Baby Shark's Big Movie Trailer",
-        "cover": "babyshark.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
+        "slug": "epixmovies",
+        "name": "Epix Movies Promo",
+        "cover": "epix-movies.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
         "slug": "lovedeath",
@@ -17,11 +17,11 @@
         "cover": "love-death.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
     },
-     {
-        "slug": "epixmovies",
-        "name": "Epix Movies Promo",
-        "cover": "epix-movies.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
+    {
+        "slug": "babyshark",
+        "name": "Baby Shark's Big Movie Trailer",
+        "cover": "babyshark.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
     },
     {
         "slug": "12monkeys",
