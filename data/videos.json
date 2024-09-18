@@ -24,10 +24,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/433823987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=11eafc104e4109482fa3df5d06def79408a81cc9eaccb2b3153b2933a1c41d0c"
     },
     {
-        "slug": "billythekid",
-        "name": "Billy The Kid Tease",
-        "cover": "billy-the-kid.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
+        "slug": "epixmovies",
+        "name": "Epix Movies Promo",
+        "cover": "epix-movies.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
         "slug": "kuukuuremix",
@@ -42,10 +42,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
     },
     {
-        "slug": "epixmovies",
-        "name": "Epix Movies Promo",
-        "cover": "epix-movies.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
+        "slug": "billythekid",
+        "name": "Billy The Kid Tease",
+        "cover": "billy-the-kid.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
     },
     {
         "slug": "nickimage",
