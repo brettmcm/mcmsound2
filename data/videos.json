@@ -60,10 +60,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718287/rendition/1080p/file.mp4?loc=external&log_user=0&signature=42e3ab85167549aaf12b5fd2c6400f6724bb01658a648048c9a5878817008173"
     },
     {
-        "slug": "childhoods",
-        "name": "Childhoods End Trailer",
-        "cover": "childhoods.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/1010431758/rendition/1080p/file.mp4?loc=external&log_user=0&signature=35d3d8f75c7ca6ab741e71f51904f972242fe48965f7fdc43d02a1745fcba283"
+        "slug": "smurfs",
+        "name": "Smurf It Up Promo",
+        "cover": "smurfs.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661736907/rendition/1080p/file.mp4?loc=external&log_user=0&signature=36512fc6a6be96a3f07f73c711cc42ee40e64b7a99f7804a82a953af6f3517bb"
     },
     {
         "slug": "transformers",
@@ -72,10 +72,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
     },
     {
-        "slug": "smurfs",
-        "name": "Smurf It Up Promo",
-        "cover": "smurfs.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661736907/rendition/1080p/file.mp4?loc=external&log_user=0&signature=36512fc6a6be96a3f07f73c711cc42ee40e64b7a99f7804a82a953af6f3517bb"
+        "slug": "childhoods",
+        "name": "Childhoods End Trailer",
+        "cover": "childhoods.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1010431758/rendition/1080p/file.mp4?loc=external&log_user=0&signature=35d3d8f75c7ca6ab741e71f51904f972242fe48965f7fdc43d02a1745fcba283"
     },
     {
         "slug": "sonic2",
