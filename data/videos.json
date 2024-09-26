@@ -1,15 +1,9 @@
 [
     {
-        "slug": "froms3",
-        "name": "FROM Season 3 Tease",
-        "cover": "from.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/1012518687/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c0659c8be389ca399faa47e26ca9b1f467a18eea7ff962872923d75024e62f73"
-    },
-    {
-        "slug": "lovedeath",
-        "name": "Love & Death Documentary Featurette",
-        "cover": "love-death.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
+        "slug": "kuukuuremix",
+        "name": "Kuu Kuu Harajuku Theme Remix",
+        "cover": "kuukuu.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
     },
     {
         "slug": "mota",
@@ -18,10 +12,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/1010431594/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5edae3a9f4a5cb4d73abf96a6a43349f14307dad923bda5bddf13b15d2ab80cf"
     },
     {
-        "slug": "kuukuuremix",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "kuukuu.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
+        "slug": "lovedeath",
+        "name": "Love & Death Documentary Featurette",
+        "cover": "love-death.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/853201850/rendition/1080p/file.mp4?loc=external&signature=8fc75fc63904a4afe5dabe705c6606d536fe70933d008218187e9925203823e0"
     },
     {
         "slug": "nickimage",
@@ -34,6 +28,12 @@
         "name": "12 Monkeys Trailer",
         "cover": "12monkeys.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/433823987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=11eafc104e4109482fa3df5d06def79408a81cc9eaccb2b3153b2933a1c41d0c"
+    },
+    {
+        "slug": "froms3",
+        "name": "FROM Season 3 Tease",
+        "cover": "from.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1012518687/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c0659c8be389ca399faa47e26ca9b1f467a18eea7ff962872923d75024e62f73"
     },
     {
         "slug": "babyshark",
