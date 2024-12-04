@@ -4,7 +4,7 @@
         "elements": [
             "Apple ProRes or H.264 (1920 × 1080) video reference file",
             "AAF/OMF - 48 kHz, 24 Bit, Embedded Media with at least 3 second handles",
-            "All original source files from any rendered or nested audio",
+            "All original source files from any enhanced, rendered or nested audio",
             "All available music mix and stem files (WAV or AIFF)",
             "All Narration/Voice Over record files (WAV or AIFF)",
             "Scripts, delivery spec sheets and versioning documents are appreciated"
