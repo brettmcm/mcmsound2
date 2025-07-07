@@ -8,12 +8,12 @@
         "logo": "Netflix-Logo.png"
     },
     {
-        "name": "MAX",
-        "logo": "max.png"
-    },
-    {
         "name": "MGM",
         "logo": "mgm.png"
+    },
+    {
+        "name": "MAX",
+        "logo": "max.png"
     },
     {
         "name": "PPlus",
