@@ -4,6 +4,10 @@
         "logo": "appletv.png"
     },
     {
+        "name": "Netflix",
+        "logo": "Netflix-Logo.png"
+    },
+    {
         "name": "MAX",
         "logo": "max.png"
     },
@@ -12,28 +16,28 @@
         "logo": "mgm.png"
     },
     {
-        "name": "Amazon",
-        "logo": "amazon.png"
-    },
-    {
         "name": "PPlus",
         "logo": "pplus.png"
     },
     {
-        "name": "Nick",
-        "logo": "nick.png"
+        "name": "Amazon",
+        "logo": "amazon.png"
     },
     {
-        "name": "HCO",
-        "logo": "hco.png"
+        "name": "Create",
+        "logo": "Create-Logo.png"
     },
     {
         "name": "NYT",
         "logo": "nyt.png"
     },
     {
-        "name": "Viewpoint",
-        "logo": "vpc.png"
+        "name": "HCO",
+        "logo": "hco.png"
+    },
+    {
+        "name": "Nick",
+        "logo": "nick.png"
     },
     {
         "name": "ESPN",
@@ -54,9 +58,5 @@
     {
         "name": "History",
         "logo": "history.png"
-    },
-    {
-        "name": "BBC America",
-        "logo": "bbca.png"
     }
 ]
