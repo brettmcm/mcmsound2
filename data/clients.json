@@ -44,19 +44,19 @@
         "logo": "espn.png"
     },
     {
-        "name": "AMC",
-        "logo": "amc.png"
-    },
-    {
         "name": "SYFY",
         "logo": "syfy.png"
     },
     {
-        "name": "VH1",
-        "logo": "vh1.png"
+        "name": "AMC",
+        "logo": "amc.png"
     },
     {
         "name": "History",
         "logo": "history.png"
+    },
+    {
+        "name": "VH1",
+        "logo": "vh1.png"
     }
 ]
