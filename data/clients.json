@@ -8,24 +8,24 @@
         "logo": "Netflix-Logo.png"
     },
     {
-        "name": "MGM",
-        "logo": "mgm.png"
-    },
-    {
         "name": "MAX",
         "logo": "max.png"
+    },
+    {
+        "name": "MGM",
+        "logo": "mgm.png"
     },
     {
         "name": "PPlus",
         "logo": "pplus.png"
     },
     {
-        "name": "Amazon",
-        "logo": "amazon.png"
-    },
-    {
         "name": "Create",
         "logo": "Create-Logo.png"
+    },
+    {
+        "name": "Amazon",
+        "logo": "amazon.png"
     },
     {
         "name": "NYT",
