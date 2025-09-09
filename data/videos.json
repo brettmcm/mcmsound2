@@ -36,6 +36,24 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/1012518687/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c0659c8be389ca399faa47e26ca9b1f467a18eea7ff962872923d75024e62f73"
     },
     {
+        "slug": "rh",
+        "name": "Robin Hood Season 1 Tease",
+        "cover": "rh.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1117160523/rendition/1080p/file.mp4?loc=external&log_user=0&signature=548492d15b1d39c09f9dbfdddb29ab62f3d1f40e4bc046d32c7d02f851b23d4a"
+    },
+    {
+        "slug": "kca25",
+        "name": "Kids Choice Awards Hero Spot",
+        "cover": "kca25.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1117160689/rendition/1080p/file.mp4?loc=external&log_user=0&signature=a0b14a5c6b0e43ffa5c7a88c3d15e205233381f4b26053372646b30239e76814"
+    },
+    {
+        "slug": "institute",
+        "name": "The Institute Season Finale Promo",
+        "cover": "institute.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1117160595/rendition/1080p/file.mp4?loc=external&log_user=0&signature=261596bce37a6c0971f3accd0ec62f6a93f69e6de24008c3adff94b2d39e7d99"
+    },
+    {
         "slug": "epixmovies",
         "name": "Epix Movies Promo",
         "cover": "epix-movies.jpg",
