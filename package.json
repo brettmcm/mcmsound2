@@ -1,14 +1,21 @@
 {
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^15.5.2",
+    "process": "^0.11.10",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.13.5"
   }
 }
