@@ -54,16 +54,16 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/1117160595/rendition/1080p/file.mp4?loc=external&log_user=0&signature=261596bce37a6c0971f3accd0ec62f6a93f69e6de24008c3adff94b2d39e7d99"
     },
     {
-        "slug": "epixmovies",
-        "name": "Epix Movies Promo",
-        "cover": "epix-movies.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
-    },
-    {
         "slug": "babyshark",
         "name": "Baby Shark's Big Movie Trailer",
         "cover": "babyshark.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
+    },
+    {
+        "slug": "epixmovies",
+        "name": "Epix Movies Promo",
+        "cover": "epix-movies.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
         "slug": "billythekid",
