@@ -60,16 +60,16 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
     },
     {
-        "slug": "epixmovies",
-        "name": "Epix Movies Promo",
-        "cover": "epix-movies.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
-    },
-    {
         "slug": "smurfs",
         "name": "Smurf It Up Promo",
         "cover": "smurfs.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/661736907/rendition/1080p/file.mp4?loc=external&log_user=0&signature=36512fc6a6be96a3f07f73c711cc42ee40e64b7a99f7804a82a953af6f3517bb"
+    },
+    {
+        "slug": "epixmovies",
+        "name": "Epix Movies Promo",
+        "cover": "epix-movies.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
         "slug": "billythekid",
