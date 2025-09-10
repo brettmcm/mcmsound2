@@ -72,22 +72,22 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
-        "slug": "billythekid",
-        "name": "Billy The Kid Tease",
-        "cover": "billy-the-kid.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
-    },
-    {
         "slug": "transformers",
         "name": "Transformers: Rise of the Beasts Promo",
         "cover": "transformers.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718213/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d7088ed96535f10ea2e3b6ab20c9e302f56bc7b3692a85821719e6a0ac58910a"
     },
     {
-        "slug": "mgmplusyearender",
-        "name": "MGM+ Anthem",
-        "cover": "mgmplus.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/924718287/rendition/1080p/file.mp4?loc=external&log_user=0&signature=42e3ab85167549aaf12b5fd2c6400f6724bb01658a648048c9a5878817008173"
+        "slug": "billythekid",
+        "name": "Billy The Kid Tease",
+        "cover": "billy-the-kid.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/661735903/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d3639b5c1c4cdd4f05ae429250b332f97974a94e00abff5265b2fc833ce1ab9"
+    },
+    {
+        "slug": "sonic2",
+        "name": "Sonic 2 Promo",
+        "cover": "sonic2.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/850234691/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7833ce83229e3a17985ee2ea471062fb7b5b95a1105cb3d1dcfe8f870cee71"
     },
     {
         "slug": "childhoods",
@@ -96,10 +96,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/1010431758/rendition/1080p/file.mp4?loc=external&log_user=0&signature=35d3d8f75c7ca6ab741e71f51904f972242fe48965f7fdc43d02a1745fcba283"
     },
     {
-        "slug": "sonic2",
-        "name": "Sonic 2 Promo",
-        "cover": "sonic2.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/850234691/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7833ce83229e3a17985ee2ea471062fb7b5b95a1105cb3d1dcfe8f870cee71"
+        "slug": "mgmplusyearender",
+        "name": "MGM+ Anthem",
+        "cover": "mgmplus.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/924718287/rendition/1080p/file.mp4?loc=external&log_user=0&signature=42e3ab85167549aaf12b5fd2c6400f6724bb01658a648048c9a5878817008173"
     },
     {
         "slug": "pennyworth",
