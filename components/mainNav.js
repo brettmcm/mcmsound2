@@ -23,7 +23,7 @@ function MainNav() {
               />
             </a>
             <a href="mailto:info@themcmsound.com">Email</a>
-            <a href="tel:201-891-1460">Call</a>
+            <a href="tel:917-992-3508">Call</a>
           </div>
         </div>
       </nav>
