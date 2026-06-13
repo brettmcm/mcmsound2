@@ -48,6 +48,12 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
     },
     {
+        "slug": "froms3",
+        "name": "FROM Season 3 Tease",
+        "cover": "from.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1012518687/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c0659c8be389ca399faa47e26ca9b1f467a18eea7ff962872923d75024e62f73"
+    },
+    {
         "slug": "mota",
         "name": "Masters of the Air",
         "cover": "mota-title.jpg",
@@ -70,12 +76,6 @@
         "name": "The Institute Season Finale Promo",
         "cover": "institute.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/1117160595/rendition/1080p/file.mp4?loc=external&log_user=0&signature=261596bce37a6c0971f3accd0ec62f6a93f69e6de24008c3adff94b2d39e7d99"
-    },
-    {
-        "slug": "froms3",
-        "name": "FROM Season 3 Tease",
-        "cover": "from.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/1012518687/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c0659c8be389ca399faa47e26ca9b1f467a18eea7ff962872923d75024e62f73"
     },
     {
         "slug": "smurfs",
