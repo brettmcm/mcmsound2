@@ -9,11 +9,23 @@
     },
     {
         "name": "MAX",
-        "logo": "max.png"
+        "logo": "hbo.png"
     },
     {
         "name": "MGM",
         "logo": "mgm.png"
+    },
+    {
+        "name": "RAVE",
+        "logo": "rave.png"
+    },
+    {
+        "name": "Requiem",
+        "logo": "requiem.png"
+    },
+    {
+        "name": "Amazon",
+        "logo": "amazon.png"
     },
     {
         "name": "PPlus",
@@ -24,8 +36,8 @@
         "logo": "Create-Logo.png"
     },
     {
-        "name": "Amazon",
-        "logo": "amazon.png"
+        "name": "JPMorgan",
+        "logo": "jp-morgan.png"
     },
     {
         "name": "NYT",
