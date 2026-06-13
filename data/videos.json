@@ -36,10 +36,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/1200930849/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=d572a761ea0e743197481f909c011ed4b77d34a3be8afa496fd912f9344293e8"
     },
     {
-        "slug": "mota",
-        "name": "Masters of the Air",
-        "cover": "mota-title.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/1010431594/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5edae3a9f4a5cb4d73abf96a6a43349f14307dad923bda5bddf13b15d2ab80cf"
+        "slug": "epixmovies",
+        "name": "Epix Movies Promo",
+        "cover": "epix-movies.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
     },
     {
         "slug": "12monkeys",
@@ -66,10 +66,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/1117160523/rendition/1080p/file.mp4?loc=external&log_user=0&signature=548492d15b1d39c09f9dbfdddb29ab62f3d1f40e4bc046d32c7d02f851b23d4a"
     },
     {
-        "slug": "epixmovies",
-        "name": "Epix Movies Promo",
-        "cover": "epix-movies.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/457034946/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e4cf4db673ea5d33351cfb8aef5c7030293f5e0c696c1a9b86c7cc2d0394ec8c"
+        "slug": "mota",
+        "name": "Masters of the Air",
+        "cover": "mota-title.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1010431594/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5edae3a9f4a5cb4d73abf96a6a43349f14307dad923bda5bddf13b15d2ab80cf"
     },
     {
         "slug": "institute",
