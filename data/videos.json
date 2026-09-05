@@ -1,15 +1,53 @@
 [
     {
-        "slug": "kuukuuremix",
-        "name": "Kuu Kuu Harajuku Theme Remix",
-        "cover": "kuukuu.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
+        "slug": "trustme",
+        "name": "Trust Me I'm A Doctor Trailer",
+        "cover": "trustme.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1224281110/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=43c6b9bb37610fc1389c709017d7dff3c52c641d3d4eae56ff923e9b120a7dbb"
+    },
+    {
+        "slug": "beast",
+        "name": "The Beast Trailer",
+        "cover": "beast.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1224280874/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=562fa8a604bb4291ff01141803ac2bba9cf919d4d536798f05f88dc3d09eaa3b"
+    },
+    {
+        "slug": "thesun",
+        "name": "The Sun Never Sets Trailer",
+        "cover": "thesun.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1224280934/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=6df8d23c3beeb721ec92d054a82eb766ba4536f6b2fc3ba9ebaf64b7d8489cee"
+    },
+    {
+        "slug": "theprogram",
+        "name": "The Program: Texas Tech Trailer",
+        "cover": "theprogram.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1224280875/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=a0fa5de66f32ea226ef54fb64713c7a25061be143ca9a96da5242be891c1fc75"
     },
     {
         "slug": "devilinsilver",
         "name": "The Terror - Devil In Silver Trailer",
         "cover": "devilinsiler.jpg",
         "source": "https://player.vimeo.com/progressive_redirect/playback/1200930848/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=e171734695cea6227528adabf248432e4637a7f4411d57db5c48226bfc101cd1"
+    },
+    {
+        "slug": "nickels",
+        "name": "Nickels Trailer",
+        "cover": "nickels.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1224280876/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=fa722a719611fc56f95947b3ad483a5fd3700824bca40d70e0e0579a6c367101"
+    },
+
+    
+    {
+        "slug": "kuukuuremix",
+        "name": "Kuu Kuu Harajuku Theme Remix",
+        "cover": "kuukuu.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/433824343/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8112b6fd0d54bd9e28d4dba801877c8cdfd0435db1c257d131534b62a622ba99"
+    },
+    {
+        "slug": "babyshark",
+        "name": "Baby Shark's Big Movie Trailer",
+        "cover": "babyshark.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
     },
     {
         "slug": "lovedeath",
@@ -24,10 +62,10 @@
         "source": "https://player.vimeo.com/progressive_redirect/playback/1200930850/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=455af5a969029f0e0ec3b45bedfc67852f6bb4dd39062ef97bd61951ec02ac53"
     },
     {
-        "slug": "babyshark",
-        "name": "Baby Shark's Big Movie Trailer",
-        "cover": "babyshark.jpg",
-        "source": "https://player.vimeo.com/progressive_redirect/playback/924718310/rendition/1080p/file.mp4?loc=external&log_user=0&signature=18ad02ae80dd5c2033a787f24a85b7125bbe689aebd46415709a248f523a9f1c"
+        "slug": "ted",
+        "name": "Ted Super Bowl Promo",
+        "cover": "ted.jpg",
+        "source": "https://player.vimeo.com/progressive_redirect/playback/1224280873/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=ec9c96f7a4b208f10cbafcc2e9007059a9582bcaeaa57e1f181278fec99cc259"
     },
     {
         "slug": "ykms1",
