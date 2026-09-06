@@ -1,5 +1,17 @@
 [
     {
+        "name": "RAVE",
+        "logo": "rave.png"
+    },
+    {
+        "name": "Requiem",
+        "logo": "requiem.png"
+    },
+    {
+        "name": "Create",
+        "logo": "Create-Logo.png"
+    },
+    {
         "name": "AppleTV",
         "logo": "appletv.png"
     },
@@ -8,32 +20,20 @@
         "logo": "Netflix-Logo.png"
     },
     {
-        "name": "RAVE",
-        "logo": "rave.png"
-    },
-    {
         "name": "MGM",
         "logo": "mgm.png"
-    },
-    {
-        "name": "Requiem",
-        "logo": "requiem.png"
     },
     {
         "name": "HBO MAX",
         "logo": "hbo.png"
     },
     {
-        "name": "Amazon",
-        "logo": "amazon.png"
-    },
-    {
         "name": "PPlus",
         "logo": "pplus.png"
     },
     {
-        "name": "Create",
-        "logo": "Create-Logo.png"
+        "name": "Amazon",
+        "logo": "amazon.png"
     },
     {
         "name": "JPMorgan",
